@@ -24,4 +24,3 @@ services:
       - "9001:80"
     volumes:
       - ./www:/var/www
-      - ./hosts:/etc/httpd/conf.d
